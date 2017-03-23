@@ -4,6 +4,7 @@ node_js:
   - 'node'
 deploy:
   provider: npm
+  email: "p@rdus.de"
   on:
     tags: true
   api_key:

@@ -1,11 +1,11 @@
 {
   "name": "eslint-config-gw",
   "description": "A shareable ESLint configuration that I use for my JavaScript projects",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "author": {
     "name": "Gunnar Wrobel",
-    "email": "wrobel@pardus.de"
+    "email": "p@rdus.de"
   },
   "bugs": {
     "url": "https://github.com/wrobel/eslint-config-gw/issues"
