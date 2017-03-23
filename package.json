@@ -1,0 +1,63 @@
+{
+  "name": "eslint-config-gw",
+  "description": "A shareable ESLint configuration that I use for my JavaScript projects",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Gunnar Wrobel",
+    "email": "wrobel@pardus.de"
+  },
+  "bugs": {
+    "url": "https://github.com/wrobel/eslint-config-gw/issues"
+  },
+  "homepage": "https://github.com/wrobel/eslint-config-gw",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wrobel/eslint-config-gw.git"
+  },
+  "engines": {
+    "node": "~6.2"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run lint && npm pack",
+    "lint": "eslint .",
+    "test": "tape test/*.js"
+  },
+  "keywords": [
+    "check",
+    "checker",
+    "code",
+    "code checker",
+    "code linter",
+    "code standards",
+    "code style",
+    "config",
+    "eslint",
+    "eslintconfig",
+    "hint",
+    "jshint",
+    "jsx",
+    "lint",
+    "policy",
+    "quality",
+    "react",
+    "simple",
+    "style",
+    "style checker",
+    "style linter",
+    "verify"
+  ],
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.13.1",
+    "eslint-plugin-flowtype": "^2.30.0",
+    "eslint-plugin-react": "^6.9.0",
+    "tape": "^4.0.0"  
+  },
+  "peerDependencies": {
+    "eslint": ">=3.0.0",
+    "eslint-plugin-react": ">=6.0.0",
+    "eslint-plugin-flowtype": ">=2.0.0"
+  }
+}

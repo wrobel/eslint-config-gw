@@ -1,0 +1,4 @@
+.emacs.js.el
+node_modules/
+/npm-debug.log
+/*.tgz
